@@ -1,0 +1,31 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 2rem;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 0.5rem;
+}
+
+.containerInputLabel{
+    display: flex;
+    flex-direction: column;
+}
+
+.resultCentralize{
+    text-align: center;
+}
+
+button, input{
+    padding: 0.5rem;
+}
+
